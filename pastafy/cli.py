@@ -30,7 +30,7 @@ def parse_args():
     parser.add_argument('-r', '--ratio', dest='ratio', help=ratio_msg, type=float, default=0.01)
 
     args = parser.parse_args()
-    if args.output == None: args.output = f'{Path(args.img[0]).stem}_{Path(args.img[1]).name}'
+    if args.output == None: args.output = Path('images',f'{Path(args.img[0]).stem}_{Path(args.img[1]).name}')
     if not args.gpu: os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
     return args
