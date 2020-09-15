@@ -56,8 +56,7 @@ pastafy -h
 
 Running *pastafy -i me.jpeg images/pasta.jpg -n 10 -r 0.00001 -l 1* results in the following image:
 
-.. image:: images/result.jpg
-  :width: 25%
+.. image:: docs/images/cropped_result.png
   :align: center
 
 |
@@ -66,100 +65,15 @@ Play around with the ratio values (keep low) and the feature layer to extract. T
 The following images are the results of different layer extractions (1,3,6), from top to bottom, and different ratios (0.001,  0.0001, 0.00001, 0.000001), from left to right.
 Notice how the ratio and depth of the layer extracted from the network influence on the style Vs content control?
 
-.. image:: images/1/0.01.jpg
-  :width: 24.5%
-.. image:: images/1/0.001.jpg
-  :width: 24.5%
-.. image:: images/1/0.0001.jpg
-  :width: 24.5%
-.. image:: images/1/1e-05.jpg
-  :width: 24.5%
-
-.. image:: images/3/0.01.jpg
-  :width: 24.5%
-.. image:: images/3/0.001.jpg
-  :width: 24.5%
-.. image:: images/3/0.0001.jpg
-  :width: 24.5%
-.. image:: images/3/1e-05.jpg
-  :width: 24.5%
-
-.. image:: images/6/0.01.jpg
-  :width: 24.5%
-.. image:: images/6/0.001.jpg
-  :width: 24.5%
-.. image:: images/6/0.0001.jpg
-  :width: 24.5%
-.. image:: images/6/1e-05.jpg
-  :width: 24.5%
+.. image:: docs/images/cropped_results.png
+  :align: center
 
 |
 
 Alternatively, you could use pastafy to transfer styles from famous paintings to other images. Below are some results obtained. The original images are the left-most ones and different styles are applied to these.
 
-.. image:: images/others/me.jpeg
-  :width: 24.5%
-.. image:: images/others/me_style1.jpeg
-  :width: 24.5%
-.. image:: images/others/me_style2.jpeg
-  :width: 24.5%
-.. image:: images/others/me_style3.jpeg
-  :width: 24.5%
-
-.. image:: images/others/building.jpeg
-  :width: 24.5%
-.. image:: images/others/building_style1.jpeg
-  :width: 24.5%
-.. image:: images/others/building_style2.jpeg
-  :width: 24.5%
-.. image:: images/others/building_style3.jpeg
-  :width: 24.5%
-
-.. image:: images/others/building2.jpeg
-  :width: 24.5%
-.. image:: images/others/building2_style1.jpeg
-  :width: 24.5%
-.. image:: images/others/building2_style2.jpeg
-  :width: 24.5%
-.. image:: images/others/building2_style3.jpeg
-  :width: 24.5%
-
-.. image:: images/others/mountain.jpeg
-  :width: 24.5%
-.. image:: images/others/mountain_style1.jpeg
-  :width: 24.5%
-.. image:: images/others/mountain_style2.jpeg
-  :width: 24.5%
-.. image:: images/others/mountain_style3.jpeg
-  :width: 24.5%
-
-.. image:: images/others/dog.jpeg
-  :width: 24.5%
-.. image:: images/others/dog_style1.jpeg
-  :width: 24.5%
-.. image:: images/others/dog_style2.jpeg
-  :width: 24.5%
-.. image:: images/others/dog_style3.jpeg
-  :width: 24.5%
-
-.. image:: images/others/cat.jpeg
-  :width: 24.5%
-.. image:: images/others/cat_style1.jpeg
-  :width: 24.5%
-.. image:: images/others/cat_style2.jpeg
-  :width: 24.5%
-.. image:: images/others/cat_style3.jpeg
-  :width: 24.5%
-
-.. image:: images/others/horse.jpeg
-  :width: 24.5%
-.. image:: images/others/horse_style1.jpeg
-  :width: 24.5%
-.. image:: images/others/horse_style2.jpeg
-  :width: 24.5%
-.. image:: images/others/horse_style3.jpeg
-  :width: 24.5%
-
+.. image:: docs/images/cropped_others.png
+  :align: center
 
 
 Credits
